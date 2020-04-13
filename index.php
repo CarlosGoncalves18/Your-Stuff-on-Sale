@@ -1,5 +1,3 @@
-<?php
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 <meta name="generator" content="Jekyll v3.8.5">
-<title>Jumbotron Template � Bootstrap</title>
+<title>Your Stuff on Sale</title>
 
 <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
 <!-- Bootstrap CSS -->
@@ -21,22 +19,10 @@
 <body>
 <header>
 <nav class="navbar navbar-expand-lg clr">
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div class="navbar" id="navbarSupportedContent">
 <ul class="navbar-nav mr-auto">
 <li class="nav-item active">
-<a class="nav-link" href="homePage.aspx"><strong>Home</strong> <span class="sr-only">(current)</span></a>
-</li>
-<li class="nav-item">
-<div class="dropdown show">
-<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Language
-</a>
-
-<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-<a class="dropdown-item" href="#">French</a>
-<a class="dropdown-item" href="#">English</a>
-</div>
-</div>
+<a class="nav-link" href="home.php"><strong>Home</strong> <span class="sr-only">(current)</span></a>
 </li>
 <li class="nav-item">
 <a class="nav-link" href="login.php"><strong>Login</strong></a>
@@ -88,13 +74,6 @@ Categories
 </div>
 <div class="carousel-item" data-interval="3000">
 <img src="images\Books.jpg" class="d-block w-100" alt="...">
-</div>
-<div class="carousel-item">
-  <img src="..." alt="...">
-  <div class="carousel-caption d-none d-md-block">
-    <h5>...</h5>
-    <p>...</p>
-  </div>
 </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">

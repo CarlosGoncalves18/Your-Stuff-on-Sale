@@ -20,7 +20,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v3.8.5">
-  <title>Jumbotron Template · Bootstrap</title>
+  <title>Jumbotron Template ï¿½ Bootstrap</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
   <!-- Bootstrap CSS -->

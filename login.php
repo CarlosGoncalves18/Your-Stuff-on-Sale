@@ -13,7 +13,7 @@ if(isset($_POST['btn-login']))
 {
     $email = $_POST['email'];
     $password = $_POST['password'];
-    
+
     if($member->login($email,$password))
     {
         $member->redirect('home.php');
@@ -33,7 +33,7 @@ if(isset($_POST['btn-login']))
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v3.8.5">
-  <title>Jumbotron Template · Bootstrap</title>
+  <title>Jumbotron Template ï¿½ Bootstrap</title>
 
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
   <!-- Bootstrap CSS -->
@@ -45,45 +45,33 @@ if(isset($_POST['btn-login']))
 <body>
   <header>
     <nav class="navbar navbar-expand-lg clr">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php"><strong>Home</strong> <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown show">
-              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Language
-              </a>
+    <div class="navbar" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+    <a class="nav-link" href="home.php"><strong>Home</strong> <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="login.php"><strong>Login</strong></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="register.php"><strong>Register</strong></a>
+    </li>
+    <li class="nav-item">
+    <div class="dropdown show">
+    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Categories
+    </a>
 
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">French</a>
-                <a class="dropdown-item" href="#">English</a>
-              </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php"><strong>Login</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="register.php"><strong>Suscribe</strong></a>
-          </li>
-          <li class="nav-item">
-            <div class="dropdown show">
-              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Categories
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Vehicles</a>
-                <a class="dropdown-item" href="#">Technologie</a>
-                <a class="dropdown-item" href="#">Books</a>
-                <a class="dropdown-item" href="#">Clothing</a>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Vehicles</a>
+    <a class="dropdown-item" href="#">Technologie</a>
+    <a class="dropdown-item" href="#">Books</a>
+    <a class="dropdown-item" href="#">Clothing</a>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div>
     </nav>
   </header>
 
